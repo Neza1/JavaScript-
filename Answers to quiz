@@ -1,0 +1,36 @@
+1.var MyObject = {
+   Name: "Dima",
+   age: 50,
+  Hair: "Brown",
+
+};
+2.
+
+var myObject = {
+   Name:"Dima",
+  age: 50,
+  Hair: "Brown",
+  getName: function () {
+    return this.Name ;
+  }
+}
+myObject.getName();
+
+3.
+var MyArray = [1,2,3,4,5];
+
+4.
+var txt = "";
+var MyArray =  [1,2,3,4,5];
+MyArray.forEach(myFunction);
+
+function myFunction(MyArray[0], MyArray[1], MyArray[2],MyArray[3], MyArray[4]   ) {
+  txt = txt + MyArray[0]+ "<br>"; 
+}
+
+5.
+var input = 1;
+while (input <= 100) {
+ console.log(input);
+ input++;
+}
